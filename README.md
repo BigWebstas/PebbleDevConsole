@@ -1,5 +1,9 @@
 # Pebble Dev Console (Android)
 
+<p align="center">
+  <img src="assets/logo.png" alt="Pebble Dev Console Logo" width="180" />
+</p>
+
 Native Android developer console (Kotlin + Jetpack Compose + Material 3) for managing Pebble smartwatch apps and watchfaces, kicking off new `.pbw` releases, sideloading builds to your watch, and responding to user questions and comments across GitHub and **webstas.net**.
 
 ## Key Features
@@ -25,9 +29,8 @@ Native Android developer console (Kotlin + Jetpack Compose + Material 3) for man
 ## Building & Running
 
 ```bash
-cd pebble-dev-android
 ./gradlew testDebugUnitTest assembleDebug
 ```
 
 The built debug APK is output to:
-`pebble-dev-android/app/build/outputs/apk/debug/app-debug.apk`
+`app/build/outputs/apk/debug/app-debug.apk`

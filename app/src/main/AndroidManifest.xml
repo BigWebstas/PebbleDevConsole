@@ -20,8 +20,8 @@
         android:name=".PebbleDevApp"
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:icon="@drawable/ic_pebble_watch"
-        android:roundIcon="@drawable/ic_pebble_watch"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
